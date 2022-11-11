@@ -1,3 +1,5 @@
+apt update
+apt upgrade
 apt install nmon
 apt install dstat
 apt install iotop
