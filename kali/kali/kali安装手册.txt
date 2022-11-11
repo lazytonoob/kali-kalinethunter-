@@ -1,0 +1,44 @@
+命令行工具:
+任务管理器(top):apt install iotop
+加强任务管理器(htop):apt install htop
+资源管理器(ranger):apt install ranger
+数据大小监视器(ncdu):apt install ncdu
+网速检测器(speedtest):pip install speedtest-cli
+性能监视器(nmon):apt install nmon
+逐条更新性能监视器(dstat):apt install dstat
+资源性能监视器(saidar):apt install saidar
+日志着色器(ccze):apt install ccze
+可视化系统状态监视器(ranwhen):https://github.com/p-e-w/ranwhen/archive/master.zip
+
+一键安装:
+apt install nmon
+apt install dstat
+apt install iotop
+apt install htop
+apt install ranger
+apt install ncdu
+pip install speedtest-cli
+
+更新源位置及更新源:
+/etc/apt/sources.list
+deb http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
+deb-src http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
+
+一键创建root用户更新源并下载工具:
+passwd root
+reboot
+
+apt update
+apt upgrade
+apt install nmon
+apt install dstat
+apt install iotop
+apt install htop
+apt install ranger
+apt install ncdu
+pip install speedtest-cli
+apt-get install ibus ibus-clutter ibus-gtk ibus-gtk3
+apt install ibus-libpinyin
+ibus-setup
+
+reboot
